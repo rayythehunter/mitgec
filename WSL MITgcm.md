@@ -20,8 +20,16 @@
 % git --version
 % git clone https://github.com/MITgcm/MITgcm.git
 ```
+5. Clone mitgcm_python
+```bash
+% cd
+% cd MITgcm
+% cd utils
+% cd python
+% git clone https://github.com/knaughten/mitgcm_python.git
+```
 
-5. Python PIP
+6. Python PIP
 ```bash
 % sudo apt install python3
 % python --version
@@ -30,7 +38,7 @@
 % pip install xmitgcm
 ```
 
-6. Build Model
+7. Build Model
 ```bash
 % cd MITgcm/
 % cd verification/exp2/build/
@@ -39,7 +47,7 @@
 % make
 ```
 
-7. Run Model
+8. Run Model
 ```bash
 % cd ../run
 % ln -s ../input/* .
@@ -48,7 +56,7 @@
 % ./mitgcmuv > output.txt
 ```
 
-8. * Run Model (MPI)
+9. * Run Model (MPI)
 ```bash
 % sudo apt install lam-runtime
 % lamboot
